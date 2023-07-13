@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaidesk</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- fonts file -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css file  -->
+    <link rel="stylesheet" href="../assets/css/plugins.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div>
+        <header class="menu-area">
+            <nav class="navbar fixed-top menu-area">
+              <div class="container-fluid">
+                <div class="menu-area-left">
+                  <div>
+      
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                  </div>
+                  <div class="search-box">
+                      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                      <input type="text" name="" placeholder="Search for anything here...." id="" />
+                  </div>
+                </div>
+      
+         
+      
+                <div class="admin-user">
+                  <div class="user-admin-part">
+                    <li>
+                      <i class="fa-regular fa-bell"></i>
+                      
+                    </li>
+                    <li><img src="../assets/images/admin-user.png" alt="" /></li>
+                    <li>
+                      <select name="" id="">
+                        <option value="">Erick</option>
+                        <option value="">Login</option>
+                      </select>
+                    </li>
+                  </div>
+                </div>
+                <div
+                  class="offcanvas offcanvas-start"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                      <img src="../assets/images/logo.png" alt="">
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >dashboard</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- dashboard area start -->
+
+    <section class="dashboard-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="dashboard-box">
+              <div class="title-area">
+                <div class="dashboard-text">
+                  <h2>Dashboard</h2>
+                    <p>Welcome back, Eirck</p>
+                </div>
+                <div class="ticket-btu">
+                  <button>Create Ticket</button>
+                </div>
+              </div>  
+              
+             <!-- all ticket count start -->
+
+             <div class="row">
+              <div class="col-md-3">
+                <div class="single-ticket-count">
+                  
+                </div>
+              </div>
+             </div>
+
+             <!-- all ticket count end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- dashboard area end -->
+
+    <!-- js file  -->
+    <script src="../assets/"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script type="text/javascript" src="./js/coustom.js"></script>
+  </body>
+</html>
