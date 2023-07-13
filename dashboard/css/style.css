@@ -191,3 +191,48 @@ ul {
 }
 
 /* menu area end */
+
+
+/* dashboard area start  */
+
+.title-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.ticket-btu-com {
+  background: #6659FF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+}
+
+.dashboard-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+
+.dashboard-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+/* dashboard area end */
+
+
+.single-ticket-count {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.single-ticket-count {
+  display: flex;
+}
